@@ -1,0 +1,333 @@
+Microsoft Windows [Version 10.0.19043.1237]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\George>path = C:\Program Files\Java\jdk-11.0.10\bin
+
+C:\Users\George>cd C:\Users\George\Desktop\Java Class Work\Introduction
+
+C:\Users\George\Desktop\Java Class Work\Introduction>javac Age.java
+
+C:\Users\George\Desktop\Java Class Work\Introduction>java Age
+
+Enter your age:> 9
+
+You are 9 years old.
+
+
+C:\Users\George\Desktop\Java Class Work\Introduction>javac Age.java
+Age.java:9: error: variable myScanner is already defined in method main(String[])
+      Scanner myScanner = new Scanner(System.in);
+              ^
+Age.java:15: error: cannot find symbol
+      name = myScanner.nextChar();
+                      ^
+  symbol:   method nextChar()
+  location: variable myScanner of type Scanner
+2 errors
+
+C:\Users\George\Desktop\Java Class Work\Introduction>javac Age.java
+
+C:\Users\George\Desktop\Java Class Work\Introduction>java Age
+
+Enter your age:> 23
+
+You are 23 years old.
+
+
+C:\Users\George\Desktop\Java Class Work\Introduction>java Age
+
+Enter your age:> 69
+
+You are 69 years old.
+
+
+C:\Users\George\Desktop\Java Class Work\Introduction>javac Age.java
+
+C:\Users\George\Desktop\Java Class Work\Introduction>java Age
+
+Enter your age:>
+34
+
+You are 34 years old.
+
+
+C:\Users\George\Desktop\Java Class Work\Introduction>javac Age.java
+
+C:\Users\George\Desktop\Java Class Work\Introduction>java Age
+
+Enter your age:> 88
+
+You are 88 years old.
+
+
+C:\Users\George\Desktop\Java Class Work\Introduction>javac Age.java
+Age.java:15: error: ')' expected
+      System.out.println("\nYou are "  age  " years old.\n");
+                                     ^
+Age.java:15: error: not a statement
+      System.out.println("\nYou are "  age  " years old.\n");
+                                       ^
+Age.java:15: error: ';' expected
+      System.out.println("\nYou are "  age  " years old.\n");
+                                          ^
+3 errors
+
+C:\Users\George\Desktop\Java Class Work\Introduction>javac Age.java
+Age.java:15: error: ')' expected
+      System.out.println("\nYou are "age" years old.\n");
+                                     ^
+Age.java:15: error: ';' expected
+      System.out.println("\nYou are "age" years old.\n");
+                                        ^
+2 errors
+
+C:\Users\George\Desktop\Java Class Work\Introduction>javac Age.java
+Age.java:15: error: ')' expected
+      System.out.println("\nYou are "age" years old.\n");
+                                     ^
+Age.java:15: error: ';' expected
+      System.out.println("\nYou are "age" years old.\n");
+                                        ^
+2 errors
+
+C:\Users\George\Desktop\Java Class Work\Introduction>javac Age.java
+Age.java:15: error: ')' expected
+      System.out.println("\nYou are  + age"+ years old.\n");
+                                                  ^
+Age.java:15: error: illegal character: '\'
+      System.out.println("\nYou are  + age"+ years old.\n");
+                                                       ^
+Age.java:15: error: not a statement
+      System.out.println("\nYou are  + age"+ years old.\n");
+                                                      ^
+Age.java:15: error: unclosed string literal
+      System.out.println("\nYou are  + age"+ years old.\n");
+                                                         ^
+Age.java:15: error: not a statement
+      System.out.println("\nYou are  + age"+ years old.\n");
+                                                        ^
+5 errors
+
+C:\Users\George\Desktop\Java Class Work\Introduction>javac Age.java
+
+C:\Users\George\Desktop\Java Class Work\Introduction>java Age
+
+Enter your age:> 45
+
+You are 45 years old.
+
+
+C:\Users\George\Desktop\Java Class Work\Introduction>javac Age.java
+
+C:\Users\George\Desktop\Java Class Work\Introduction>java Age
+
+Enter your age:> 67
+
+You are 67 years old.
+
+
+C:\Users\George\Desktop\Java Class Work\Introduction>javac Age.java
+Age.java:7: error: ';' expected
+      int age
+             ^
+1 error
+
+C:\Users\George\Desktop\Java Class Work\Introduction>javac Age.java
+Age.java:2: error: '{' expected
+class Age
+         ^
+Age.java:4: error: class, interface, or enum expected
+   public static void main(String args[])
+                 ^
+Age.java:7: error: class, interface, or enum expected
+      int age;
+      ^
+Age.java:10: error: class, interface, or enum expected
+      System.out.print("\nEnter your age:> ");
+      ^
+Age.java:11: error: class, interface, or enum expected
+      age = myScanner.nextInt();
+      ^
+Age.java:14: error: class, interface, or enum expected
+      System.out.println("\nYou are " + age + " years old.\n");
+      ^
+Age.java:15: error: class, interface, or enum expected
+   }
+   ^
+7 errors
+
+C:\Users\George\Desktop\Java Class Work\Introduction>javac Age.java
+
+C:\Users\George\Desktop\Java Class Work\Introduction>java Age
+
+Enter your age:> yh
+Exception in thread "main" java.util.InputMismatchException
+        at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+        at java.base/java.util.Scanner.next(Scanner.java:1594)
+        at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+        at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+        at Age.main(Age.java:11)
+
+C:\Users\George\Desktop\Java Class Work\Introduction>java Age
+
+Enter your age:> 5
+
+You are 5 years old.
+
+
+C:\Users\George\Desktop\Java Class Work\Introduction>javac CalcRectangle.java
+
+C:\Users\George\Desktop\Java Class Work\Introduction>java CalcRectangle
+
+Enter the width of the rectangle:> 7
+Enter the length of the rectangle:> 9
+
+The area of the rectangle is 63.0
+The perimeter of the rectangle is 32.0
+
+C:\Users\George\Desktop\Java Class Work\Introduction>javac CalcRectangle.java
+CalcRectangle.java:11: error: cannot find symbol
+      width = s.nextdouble();
+               ^
+  symbol:   method nextdouble()
+  location: variable s of type Scanner
+1 error
+
+C:\Users\George\Desktop\Java Class Work\Introduction>javac CalcRectangle.java
+
+C:\Users\George\Desktop\Java Class Work\Introduction>java CalcRectangle
+
+Enter the width of the rectangle:> 6
+Enter the length of the rectangle:> 8
+
+The area of the rectangle is 48.0
+The perimeter of the rectangle is 28.0
+
+C:\Users\George\Desktop\Java Class Work\Introduction>javac StudentDetails.java
+
+C:\Users\George\Desktop\Java Class Work\Introduction>java StudentDetails
+
+Enter your are name: George Stanley
+Enter the course you are doing: BBIT
+Where are you from? Bungoma
+
+You are George Stanley from Bungoma and you are doing BBIT
+
+C:\Users\George\Desktop\Java Class Work\Introduction>javac StudentDetails.java
+StudentDetails.java:8: error: cannot find symbol
+      string name, course, place;
+      ^
+  symbol:   class string
+  location: class StudentDetails
+1 error
+
+C:\Users\George\Desktop\Java Class Work\Introduction>javac StudentDetails.java
+
+C:\Users\George\Desktop\Java Class Work\Introduction>java StudentDetails
+
+Enter your are name: Precious Neema
+Enter the course you are doing: IT
+Where are you from? Manchester
+
+You are Precious Neema from Manchester and you are doing IT
+
+C:\Users\George\Desktop\Java Class Work\Introduction>javac StudentDetails.java
+
+C:\Users\George\Desktop\Java Class Work\Introduction>javac Find.java
+
+C:\Users\George\Desktop\Java Class Work\Introduction>java Find
+
+Enter a sentence:> I am 21 years old nad my grandfather is 102 years old
+
+The data is 102
+
+C:\Users\George\Desktop\Java Class Work\Introduction>javac Find.java
+
+C:\Users\George\Desktop\Java Class Work\Introduction>java Find
+
+Enter a sentence:> I am 21 years old.My sister is 32 years old and my grandmother is 135 years old.
+
+The data is 135
+
+C:\Users\George\Desktop\Java Class Work\Introduction>javac GetGrade.java
+
+C:\Users\George\Desktop\Java Class Work\Introduction>java GetGrade
+
+Enter the grade the student scored:> A
+
+The student scored grade A
+
+C:\Users\George\Desktop\Java Class Work\Introduction>java GetGrade
+
+Enter the grade the student scored:> Dick
+
+The student scored grade D
+
+C:\Users\George\Desktop\Java Class Work\Introduction>java GetGrade
+
+Enter the grade the student scored:> Neema
+
+The student scored grade N
+
+C:\Users\George\Desktop\Java Class Work\Introduction>javac CalcRectangle.java
+
+C:\Users\George\Desktop\Java Class Work\Introduction>java CalcRectangle
+
+Enter the width of the rectangle:> 5 7
+Enter the length of the rectangle:>
+The area of the rectangle is 35.0
+The perimeter of the rectangle is 24.0
+
+C:\Users\George\Desktop\Java Class Work\Introduction>javac CalcRectangle.java
+
+C:\Users\George\Desktop\Java Class Work\Introduction>javac CalcRectangleTwo.java
+
+C:\Users\George\Desktop\Java Class Work\Introduction>java CalcRectangle
+
+Enter the width of the rectangle:> 5 7
+Enter the length of the rectangle:>
+The area of the rectangle is 35.0
+The perimeter of the rectangle is 24.0
+
+C:\Users\George\Desktop\Java Class Work\Introduction>javac MyRectangle.java
+
+C:\Users\George\Desktop\Java Class Work\Introduction>java MyRectangle
+
+Enter the width of the rectangle:> 5
+Enter the length of the rectangle:> 7
+
+The area of the rectangle is 35.0
+The perimeter of the rectangle is 24.0
+
+C:\Users\George\Desktop\Java Class Work\Introduction>java MyRectangle
+
+Enter the width of the rectangle:> 5 7
+Exception in thread "main" java.lang.NumberFormatException: For input string: "5 7"
+        at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+        at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+        at java.base/java.lang.Double.parseDouble(Double.java:543)
+        at MyRectangle.main(MyRectangle.java:13)
+
+C:\Users\George\Desktop\Java Class Work\Introduction>java MyRectangle
+
+Enter the width of the rectangle:> 6
+Enter the length of the rectangle:> 6
+
+The area of the rectangle is 36.0
+The perimeter of the rectangle is 24.0
+
+C:\Users\George\Desktop\Java Class Work\Introduction>javac StudentDetails.java
+
+C:\Users\George\Desktop\Java Class Work\Introduction>javac DialogAppOne.java
+
+C:\Users\George\Desktop\Java Class Work\Introduction>java DialogAppOne
+
+You are 78 years old.
+
+C:\Users\George\Desktop\Java Class Work\Introduction>javac DialogAppTwo.java
+
+C:\Users\George\Desktop\Java Class Work\Introduction>java DialodAppTwo
+Error: Could not find or load main class DialodAppTwo
+Caused by: java.lang.ClassNotFoundException: DialodAppTwo
+
+C:\Users\George\Desktop\Java Class Work\Introduction>java DialogAppTwo
